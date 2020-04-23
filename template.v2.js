@@ -618,7 +618,7 @@ distill-header .logo {
   font-size: 17px;
   font-weight: 200;
 }
-distill-header .nav {
+distill-header .hright {
   float: right;
   font-weight: 300;
 }
@@ -631,13 +631,11 @@ distill-header .nav a {
 <div class="content">
   <a href="/" class="logo">
     ${Zr}
-    Distill
+    Post title
   </a>
-  <nav class="nav">
-    <a href="/about/">About</a>
-    <a href="/prize/">Prize</a>
-    <a href="/journal/">Submit</a>
-  </nav>
+  <div class="hright">
+    <a>Written by Siva</a>
+  </div>
 </div>
 `,Gr=Si('distill-header',Jr,!1);class eo extends Gr(HTMLElement){}const to=`
 <style>
